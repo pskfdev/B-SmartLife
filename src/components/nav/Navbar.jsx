@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+//Components
 import { FiMenu } from "react-icons/fi";
 
 function Navbar() {
@@ -12,7 +14,7 @@ function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
           >
             <li>
               <a>Item 1</a>
@@ -27,14 +29,19 @@ function Navbar() {
         </div>
 
         {/* Logo */}
-        <h2 className="text-warning">B Smart-life</h2>
+        <Link href="/">
+          <h2 className="text-warning">B Smart-life</h2>
+        </Link>
       </div>
 
       {/* Menu */}
       <div className=" hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/product">Product</Link>
           </li>
           <li>
             <details>
@@ -50,7 +57,7 @@ function Navbar() {
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </div>

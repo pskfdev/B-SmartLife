@@ -13,11 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} flex flex-col min-h-screen bg-slate-200`}>
-        <nav>
+        <nav className="z-10 sticky top-0">
           <Navbar />
         </nav>
 
-        <main className="my-5 rounded-[50px] bg-white grow drop-shadow-lg">
+        <main className="my-5 rounded-[50px] bg-white grow drop-shadow-lg overflow-hidden">
           {children}
         </main>
 
