@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} flex flex-col min-h-screen bg-slate-200`}>
-        <nav className="z-10 sticky top-0">
+        <nav /* className="z-10 sticky top-0" */>
           <Navbar />
         </nav>
 
