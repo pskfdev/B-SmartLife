@@ -17,7 +17,7 @@ function page() {
       {/* Banner Head */}
       <BannerHeadVideo />
 
-      <div className="py-20">
+      <div className="py-20 bg-slate-900">
         {/* Type products */}
         <div className="flex flex-wrap justify-center mb-10 space-x-10">
           <CardProductIcon icon={FaRegLightbulb} text="Lighting" />
