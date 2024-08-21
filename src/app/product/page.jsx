@@ -17,9 +17,9 @@ function page() {
       {/* Banner Head */}
       <BannerHeadVideo />
 
-      <div className="py-20 bg-slate-900">
+      <div className="py-20">
         {/* Type products */}
-        <div className="flex flex-wrap justify-center mb-10 space-x-10">
+        <div className="flex flex-wrap justify-center mb-10 lg:space-x-10">
           <CardProductIcon icon={FaRegLightbulb} text="Lighting" />
           <CardProductIcon icon={FaShieldAlt} text="Security" />
           <CardProductIcon icon={FaTemperatureLow} text="Climate" />

@@ -5,15 +5,8 @@ import { FiNavigation } from "react-icons/fi";
 
 function OurShowroom() {
   return (
-    <div
-      className="w-4/5 p-5 flex justify-end rounded-[50px] mx-auto overflow-hidden"
-      style={{
-        height: "500px",
-        backgroundImage: `url("https://via.placeholder.com/600/771796")`,
-        backgroundSize: "cover",
-      }}
-    >
-      <div className="w-[500px] bg-white opacity-70 rounded-[50px] p-10 lg:my-10 space-y-2">
+    <div className="w-4/5 h-[500px] md:p-5 flex justify-end rounded-[50px] mx-auto overflow-hidden bg-showroom bg-bottom bg-cover">
+      <div className="w-[500px] bg-white opacity-80 rounded-[50px] p-5 md:p-10 lg:my-10 space-y-2">
         <h3 className="italic text-green-500">About us</h3>
         <h2>Our farms</h2>
         <p>

@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi";
 
 function Navbar() {
   return (
-    <div className="navbar bg-base-100 flex justify-between px-20 h-24 rounded-b-[35px] drop-shadow-lg">
+    <div className="navbar bg-base-100 flex justify-between lg:px-20 h-24 rounded-b-[35px] drop-shadow-lg">
       <div className="">
         {/* Humberger */}
         <div className="dropdown">

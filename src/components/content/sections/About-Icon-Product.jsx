@@ -8,7 +8,7 @@ import CardTypeProduct from "../card/Card-Type-Product";
 function AboutIconProduct() {
   return (
     <div className="py-20 flex flex-col justify-center">
-      <div className="text-center w-3/5 mx-auto">
+      <div className="text-center w-11/12 lg:w-3/5 mx-auto">
         <h2 className="text-green-500">
           What can Home Automation systems control !
         </h2>
@@ -32,7 +32,7 @@ function AboutIconProduct() {
         </p>
       </div>
 
-      <div className="my-5 w-3/4 flex flex-wrap mx-auto">
+      <div className="my-5 w-3/4 flex flex-wrap justify-center mx-auto">
         <CardTypeProduct
           icon={HiOutlineLightBulb}
           title="Lighting Control"

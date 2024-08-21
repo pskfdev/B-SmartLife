@@ -1,14 +1,9 @@
 import React from "react";
 
-function CardHero({ img, text }) {
+function CardHero({ bg, text }) {
   return (
     <div
-      className={`w-full h-[500px] py-10 rounded-[25px] flex justify-center items-end`}
-      style={{
-        backgroundImage: `url(${ img })`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className={`w-[370px] h-[500px] py-10 rounded-[25px] flex justify-center items-end ${ bg } bg-cover bg-center`}
     >
       <div className="p-5 bg-white bg-opacity-50 rounded-[25px]">
         <h2 className="text-center uppercase">{text}</h2>

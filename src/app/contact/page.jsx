@@ -13,7 +13,7 @@ function page() {
       <ContactUs />
 
       {/* Social */}
-      <div className="flex flex-wrap justify-center py-20 space-x-5">
+      <div className="flex flex-wrap justify-center py-20 lg:space-x-5">
         <CardSocial icon={FiPhoneCall} title="Phone" des="096-885-4858" />
         <CardSocial icon={FiMail} title="E-mail" des="b_smart-life@gmail.com" />
         <CardSocial icon={FiFacebook} title="Facebook" des="B Smart-Life" />

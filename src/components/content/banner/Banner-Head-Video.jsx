@@ -4,7 +4,7 @@ import { FiArrowDownCircle } from "react-icons/fi";
 
 function BannerHeadVideo() {
   return (
-    <div className="h-full min-h-96 relative bg-slate-400">
+    <div className="h-full min-h-96 relative bg-slate-700">
       <video
         src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/animation_gates_loop.mp4"
         className="hidden md:flex"

@@ -2,7 +2,7 @@ import React from "react";
 
 function CardServiceIcon({ icon, title, subti, des, bg }) {
   return (
-    <div className={`w-1/4 h-96 flex flex-col justify-center text-center text-white space-y-5 px-10 ${bg}`}>
+    <div className={`w-[370px] h-96 flex flex-col justify-center text-center text-white space-y-5 px-10 ${bg}`}>
       <div className="flex justify-center">
         {React.createElement(icon, { size: "58" })}
       </div>

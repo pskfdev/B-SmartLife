@@ -12,21 +12,21 @@ export default function Home() {
       <CarouselHead />
 
       {/* Card Hero Smart-thing */}
-      <div className="w-full my-10 flex justify-center drop-shadow-2xl">
+      <div className="w-full my-10 flex flex-wrap justify-center drop-shadow-2xl">
         <CardHero
-          img="https://via.placeholder.com/600/24f355"
+          bg="bg-smart-home"
           text="Smart home"
         />
         <CardHero
-          img="https://via.placeholder.com/600/d32776"
+          bg="bg-smart-building"
           text="Smart building"
         />
         <CardHero
-          img="https://via.placeholder.com/600/f66b97"
+          bg="bg-smart-hotel"
           text="Smart hotel"
         />
         <CardHero
-          img="https://via.placeholder.com/600/56a8c2"
+          bg="bg-smart-marine"
           text="Smart marine"
         />
       </div>
@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* Section Our-System */}
       <OurSystem
-        img="https://via.placeholder.com/600/24f355"
+        bg="bg-our-system1"
         style="justify-end"
         border="rounded-l-3xl"
         title="BESS (Battery Energy Storage System)"
@@ -48,7 +48,7 @@ export default function Home() {
           qui aliquid iste ipsa!"
       />
       <OurSystem
-        img="https://via.placeholder.com/600/f66b97"
+        bg="bg-our-system2"
         style="justify-start"
         border="rounded-r-3xl"
         title="BESS (Battery Energy Storage System)"
@@ -60,7 +60,7 @@ export default function Home() {
           qui aliquid iste ipsa!"
       />
       <OurSystem
-        img="https://via.placeholder.com/600/56a8c2"
+        bg="bg-our-system3"
         style="justify-end"
         border="rounded-l-3xl"
         title="BESS (Battery Energy Storage System)"
@@ -73,7 +73,7 @@ export default function Home() {
       />
 
       {/* Card Service Icon */}
-      <div className="w-full my-10 flex justify-center rounded-3xl overflow-hidden">
+      <div className="w-fit my-10 flex flex-wrap justify-center rounded-3xl overflow-hidden mx-auto">
         <CardServiceIcon
           icon={FiBookOpen}
           title="Consultancy services"

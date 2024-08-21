@@ -24,13 +24,13 @@ function page() {
           des="HDL On คือ แอพพลิเคชั่นสำหรับสมาร์ทโฟนมีทั้งระบบ iOS และ Android จาก
             HDL Automation ที่จะทำให้การควบคุมระบบสมาร์ทโฮม (Smart Home)
             ของคุณเป็นเรื่องง่ายดาย เพียงปลายนิ้ว"
-          img="https://via.placeholder.com/600/24f355"
+          bg="bg-about-system1"
         />
         <AboutImageText
-          style="flex-row-reverse"
+          style="flex-col md:flex-row-reverse"
           title="On Pro - The interface is simple and easy to understand. You can view the indoor environmental quality, security state, latest news, as well as other information you may care about on the homepage. There are also shortcuts to control your favorite functions and scenarios."
           des="On Pro อีก  Mobile app จาก HDL ที่มี user interface ที่ใช้งานง่าย และผู้ใช้ยังสามารถ สร้าง scenario ต่างๆ เพื่อให้สามารถควบคุมอุปกรณ์ Home Automation ได้อย่างง่ายดาย ด้วย Smart phone"
-          img="https://via.placeholder.com/600/92c952"
+          bg="bg-about-system1"
         />
       </div>
 
