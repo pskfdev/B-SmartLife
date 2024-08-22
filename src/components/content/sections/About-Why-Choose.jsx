@@ -1,4 +1,12 @@
+"use client";
 import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper/modules";
+// import css/pagination and css/effect-coverflow
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 
 function AboutWhyChoose() {
   return (
@@ -6,9 +14,69 @@ function AboutWhyChoose() {
       <h2 className="text-center text-green-500">
         ระบบสมาร์ทโฮมจาก HDL (Smart Home Solution from HDL Automation)
       </h2>
+
       {/* Carousel */}
-      <div className="h-96 w-4/5 bg-warning rounded-3xl mx-auto">
-        <h4 className="text-center">Carousel Systems</h4>
+      <div className="h-full w-full p-20 bg-slate-100 rounded-3xl mx-auto">
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            scale: 1,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={true}
+          modules={[EffectCoverflow, Pagination]}
+          className="mySwiper h-96 py-5 bg-slate-400"
+        >
+          <SwiperSlide className="w-10 overflow-hidden bg-black">
+            <img
+              src="https://via.placeholder.com/600/92c952"
+              className="w-10 block"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="w-10 h-72 bg-cover bg-center">
+            <img
+              src="https://swiperjs.com/demos/images/nature-2.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+            <img
+              src="https://swiperjs.com/demos/images/nature-3.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+            <img
+              src="https://swiperjs.com/demos/images/nature-4.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+            <img
+              src="https://swiperjs.com/demos/images/nature-5.jpg"
+              className="w-96"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       {/* Why choose B Smart-Life */}

@@ -13,7 +13,7 @@ function AboutImageText({ style="flex-col md:flex-row", title, des, bg }) {
           </button>
         </div>
       </div>
-      <div className={`w-full min-h-[400px] ${bg} bg-cover bg-center`}></div>
+      <div className={`w-full min-h-[600px] ${bg} bg-cover bg-center`}></div>
     </div>
   );
 }
