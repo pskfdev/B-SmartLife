@@ -3,10 +3,9 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCards } from "swiper/modules";
 // import css/pagination and css/effect-coverflow
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+import "swiper/css/effect-cards";
 
 function AboutWhyChoose() {
   return (
@@ -16,71 +15,52 @@ function AboutWhyChoose() {
       </h2>
 
       {/* Carousel */}
-      <div className="h-full w-full p-20 bg-slate-100 rounded-3xl mx-auto">
+      <div>
         <Swiper
-          effect={"coverflow"}
+          effect={"cards"}
           grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            scale: 1,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination]}
-          className="mySwiper h-96 py-5 bg-slate-400"
+          modules={[EffectCards]}
+          className="mySwiper w-full max-w-[700px] h-[500px]"
         >
-          <SwiperSlide className="w-10 overflow-hidden bg-black">
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
               src="https://via.placeholder.com/600/92c952"
-              className="w-10 block"
+              alt=""
+              className="w-full h-full object-cover"
             />
           </SwiperSlide>
-          <SwiperSlide className="w-10 h-72 bg-cover bg-center">
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://swiperjs.com/demos/images/nature-2.jpg"
-              className="w-96"
+              src="https://via.placeholder.com/600/f66b97"
+              alt=""
+              className="w-full h-full object-cover"
             />
           </SwiperSlide>
-          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://swiperjs.com/demos/images/nature-3.jpg"
-              className="w-96"
+              src="https://via.placeholder.com/600/b0f7cc"
+              alt=""
+              className="w-full h-full object-cover"
             />
           </SwiperSlide>
-          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://swiperjs.com/demos/images/nature-4.jpg"
-              className="w-96"
+              src="https://via.placeholder.com/600/51aa97"
+              alt=""
+              className="w-full h-full object-cover"
             />
           </SwiperSlide>
-          <SwiperSlide className="w-72 h-72 bg-cover bg-center">
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://swiperjs.com/demos/images/nature-5.jpg"
-              className="w-96"
+              src="https://via.placeholder.com/600/197d29"
+              alt=""
+              className="w-full h-full object-cover"
             />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
           </SwiperSlide>
         </Swiper>
       </div>
 
       {/* Why choose B Smart-Life */}
-
       <div className="w-4/5 rounded-3xl mx-auto">
         <h2 className="text-green-500">
           Why choose HDL Automation from Vyprib??{" "}
