@@ -5,8 +5,8 @@ function ContactUs() {
     <div className="w-4/5 mx-auto flex flex-col lg:flex-row justify-center items-center lg:px-20 text-center space-y-10 lg:space-y-0">
       <div className="w-full">
         <img
-          src="https://via.placeholder.com/600/771796"
-          className="w-96 mx-auto rounded-full shadow-2xl"
+          src="https://www.fibaro.com/wp-content/uploads/assets/support/community.png"
+          className="w-fit mx-auto rounded-full shadow-2xl"
           alt="contact"
         />
       </div>

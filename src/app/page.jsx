@@ -9,26 +9,16 @@ import { FiBookOpen, FiEdit3, FiMonitor, FiTool } from "react-icons/fi";
 export default function Home() {
   return (
     <div>
-      <CarouselHead />
+      <div className="bg-slate-200">
+        <CarouselHead />
+      </div>
 
       {/* Card Hero Smart-thing */}
-      <div className="w-full my-10 flex flex-wrap justify-center drop-shadow-2xl">
-        <CardHero
-          bg="bg-smart-home"
-          text="Smart home"
-        />
-        <CardHero
-          bg="bg-smart-building"
-          text="Smart building"
-        />
-        <CardHero
-          bg="bg-smart-hotel"
-          text="Smart hotel"
-        />
-        <CardHero
-          bg="bg-smart-marine"
-          text="Smart marine"
-        />
+      <div className="w-full py-10 flex flex-wrap justify-center rounded-b-3xl drop-shadow-2xl bg-slate-200">
+        <CardHero bg="bg-smart-home" text="Smart home" />
+        <CardHero bg="bg-smart-building" text="Smart building" />
+        <CardHero bg="bg-smart-hotel" text="Smart hotel" />
+        <CardHero bg="bg-smart-marine" text="Smart garden" />
       </div>
 
       {/* Section Our-Services */}
@@ -71,6 +61,18 @@ export default function Home() {
           minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
           qui aliquid iste ipsa!"
       />
+      <OurSystem
+        bg="bg-our-system4"
+        style="justify-start"
+        border="rounded-r-3xl"
+        title="BESS (Battery Energy Storage System)"
+        des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aut
+          quas vel dolorum corrupti consequatur recusandae explicabo a iure
+          facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
+          aliquid, eligendi labore eius molestiae minima. Consectetur magnam
+          minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
+          qui aliquid iste ipsa!"
+      />
 
       {/* Card Service Icon */}
       <div className="w-fit my-10 flex flex-wrap justify-center rounded-3xl overflow-hidden mx-auto">
@@ -79,14 +81,14 @@ export default function Home() {
           title="Consultancy services"
           subti="Consultancy service - Smart home & building"
           des="ให้คำปรึกษาระบบสมาร์ทโฮมและสมาร์ทบิวดิ้ง"
-          bg="bg-teal-500"
+          bg="bg-teal-200"
         />
         <CardServiceIcon
           icon={FiEdit3}
           title="Design"
           subti="Concept Design -Smart home , smart building , smart hotel"
           des="ออกแบบคอนเซ็ปต์ระบบสมาร์ทโฮมและสมาร์ทบิวดิ้ง"
-          bg="bg-zinc-500"
+          bg="bg-zinc-300"
         />
         <CardServiceIcon
           icon={FiMonitor}
@@ -100,7 +102,7 @@ export default function Home() {
           title="Maintenance & after sales service"
           subti="Home Automation system maintenance - repair"
           des="ตรวจสอบ บำรุงรักษาระบบออโตเมชั่นสำหรับบ้าน อาคาร และ โรงแรม"
-          bg="bg-green-400"
+          bg="bg-green-200"
         />
       </div>
 

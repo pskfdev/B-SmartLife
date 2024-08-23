@@ -3,12 +3,12 @@ import React from "react";
 function AboutImageText({ style="flex-col md:flex-row", title, des, bg }) {
   return (
     <div className={`flex ${ style } h-full`}>
-      <div className="w-full flex justify-center items-center py-10 bg-zinc-600">
+      <div className="w-full flex justify-center items-center py-10 bg-slate-200">
         <div className="w-4/5 space-y-5 mx-auto">
-          <h4 className="text-green-500">{title}</h4>
-          <p className="text-white">{des}</p>
+          <h2>{title}</h2>
+          <p>{des}</p>
 
-          <button className="btn btn-success text-white flex mx-auto">
+          <button className="btn btn-accent text-white flex mx-auto">
             Learn More
           </button>
         </div>

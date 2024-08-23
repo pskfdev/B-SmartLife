@@ -8,7 +8,7 @@ function OurSystem({ bg, style, border, title, des }) {
       >
         <h1>{title}</h1>
         <h4>{des}</h4>
-        <button className="btn btn-outline btn-accent">Learn More</button>
+        <button className="btn btn-outline btn-primary">Learn More</button>
       </div>
     </div>
   );

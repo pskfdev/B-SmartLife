@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Noto_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import 'swiper/css';
 import Navbar from "@/components/nav/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const noto = Noto_Sans_Thai({ subsets: ["latin"] });
 
 export const metadata = {
   title: "B-SmartLife",
@@ -13,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-screen bg-slate-200`}>
-        <nav /* className="z-10 sticky top-0" */>
+      <body className={`${noto.className} flex flex-col min-h-screen bg-slate-200`}>
+        <nav className="z-10 sticky top-0">
           <Navbar />
         </nav>
 

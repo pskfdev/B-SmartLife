@@ -9,7 +9,7 @@ function AboutIconProduct() {
   return (
     <div className="py-20 flex flex-col justify-center">
       <div className="text-center w-11/12 lg:w-3/5 mx-auto">
-        <h2 className="text-green-500">
+        <h2>
           What can Home Automation systems control !
         </h2>
         <h3 className="py-2">We integrate all smart home devices into one completed system!</h3>
@@ -21,7 +21,7 @@ function AboutIconProduct() {
           able to integrate various functions and cover every area of your home.
         </p>
 
-        <h3 className="mt-5 text-green-500">
+        <h3 className="mt-5">
           ระบบ Home Automation จากไหวพริบสามารถควบคุมอะไรได้บ้าง
         </h3>
         <p>
@@ -76,7 +76,7 @@ function AboutIconProduct() {
         />
       </div>
 
-      <button className="btn btn-success text-white mx-auto">อยากติดตั้งสมาร์ทโฮมทำไงดี ?</button> 
+      <button className="btn btn-accent text-white mx-auto">อยากติดตั้งสมาร์ทโฮมทำไงดี ?</button> 
     </div>
   );
 }

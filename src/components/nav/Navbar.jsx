@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 function Navbar() {
   return (
     <div className="navbar bg-base-100 flex justify-between lg:px-20 h-24 rounded-b-[35px] drop-shadow-lg">
-      <div className="">
+      <div>
         {/* Humberger */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -17,20 +17,20 @@ function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <a>Ttem 2</a>
+              <Link href="/product">Product</Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>
 
         {/* Logo */}
         <Link href="/">
-          <h2 className="text-warning">B Smart-life</h2>
+          <h2>B Smart-life</h2>
         </Link>
       </div>
 
@@ -42,19 +42,6 @@ function Navbar() {
           </li>
           <li>
             <Link href="/product">Product</Link>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
           </li>
           <li>
             <Link href="/contact">Contact</Link>

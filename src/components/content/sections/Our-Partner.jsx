@@ -10,7 +10,7 @@ import yale from "../../../assets/img/yale.png";
 function OurPartner() {
   return (
     <div className="w-3/4 flex flex-col justify-center mx-auto py-10">
-      <h1 className="text-cyan-700 text-center">Our Solution Partners</h1>
+      <h1 className="text-center">Our Solution Partners</h1>
 
       <div className="w-full flex flex-wrap mt-20 space-x-2 justify-center items-center">
         <Image src={artDNA} alt="artDNA" className="h-32 w-40 object-cover" />

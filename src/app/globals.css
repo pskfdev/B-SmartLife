@@ -5,22 +5,25 @@
 /* Setup style tag html */
 @layer base {
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl font-bold bg-gradient-to-r from-primary to-success bg-clip-text text-transparent;
   }
   h2 {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-bold bg-gradient-to-r from-primary to-success bg-clip-text text-transparent;
   }
   h3 {
-    @apply text-[18.72px] font-bold;
+    @apply text-[18.72px] font-bold bg-gradient-to-r from-primary to-success bg-clip-text text-transparent;
   }
   h4 {
-    @apply text-base font-bold;
+    @apply text-base font-bold text-indigo-500;
   }
   h5 {
-    @apply text-[13.28px] font-bold;
+    @apply text-[13.28px] font-bold text-indigo-500;
   }
   h6 {
-    @apply text-[10.72px] font-bold;
+    @apply text-[10.72px] font-bold text-indigo-500;
+  }
+  p {
+    @apply text-indigo-500;
   }
 }
 

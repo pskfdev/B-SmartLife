@@ -10,7 +10,7 @@ import "swiper/css/effect-cards";
 function AboutWhyChoose() {
   return (
     <div className="py-20 space-y-10">
-      <h2 className="text-center text-green-500">
+      <h2 className="text-center">
         ระบบสมาร์ทโฮมจาก HDL (Smart Home Solution from HDL Automation)
       </h2>
 
@@ -24,46 +24,71 @@ function AboutWhyChoose() {
         >
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://via.placeholder.com/600/92c952"
+              src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/use-cases-lighting-_usecase_6.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Lighting</h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://via.placeholder.com/600/f66b97"
+              src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/use-cases-gates-_usecase_7.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Blinds</h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://via.placeholder.com/600/b0f7cc"
+              src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/use-cases-gates-_usecase_3.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Gates</h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://via.placeholder.com/600/51aa97"
+              src="https://www.fibaro.com/pl/wp-content/uploads/sites/5/2018/05/use-cases-climate-_usecase_9.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Temperature</h2>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
             <img
-              src="https://via.placeholder.com/600/197d29"
+              src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/use-cases-security-_usecase_7.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Safety</h2>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="flex items-center justify-center rounded-3xl">
+            <img
+              src="https://www.fibaro.com/en/wp-content/uploads/sites/5/2018/05/use-cases-safety-_usecase_4.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
+              <h2 className="text-primary">Security</h2>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
 
       {/* Why choose B Smart-Life */}
-      <div className="w-4/5 rounded-3xl mx-auto">
-        <h2 className="text-green-500">
-          Why choose HDL Automation from Vyprib??{" "}
+      <div className="w-4/5 rounded-3xl mx-auto pt-20">
+        <h2>
+          Why choose HDL Automation from B Smart-Life?{" "}
         </h2>
         <h2 className="my-5">
           ทำไมต้องเลือกระบบ Smart Home / Home Automation ของ HDL

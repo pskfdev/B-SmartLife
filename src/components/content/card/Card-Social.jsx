@@ -9,7 +9,7 @@ function CardSocial({ icon, title, des }) {
       </div>
 
       <div className="space-y-2 text-sm">
-        <h4 className="text-primary uppercase">{title}</h4>
+        <h3 className="uppercase">{title}</h3>
         <p className="text-muted">{des}</p>
       </div>
     </div>
