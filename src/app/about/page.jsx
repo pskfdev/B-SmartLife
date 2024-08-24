@@ -25,12 +25,14 @@ function page() {
             HDL Automation ที่จะทำให้การควบคุมระบบสมาร์ทโฮม (Smart Home)
             ของคุณเป็นเรื่องง่ายดาย เพียงปลายนิ้ว (เป็นระบบที่ช่วยอำนวยความสะดวกให้กับคนในบ้าน)"
           bg="bg-about-system1"
+          link="https://www.fibaro.com/en/smart-home-in-use/smart-garden/"
         />
         <AboutImageText
           style="flex-col md:flex-row-reverse"
           title="On Pro - The interface is simple and easy to understand. You can view the indoor environmental quality, security state, latest news, as well as other information you may care about on the homepage. There are also shortcuts to control your favorite functions and scenarios."
           des="On Pro อีก  Mobile app จาก HDL ที่มี user interface ที่ใช้งานง่าย และผู้ใช้ยังสามารถ สร้าง scenario ต่างๆ เพื่อให้สามารถควบคุมอุปกรณ์ Home Automation ได้อย่างง่ายดาย ด้วย Smart phone (และยังช่วยรักษาความปลอดภัยให้กับคุณในทุกช่วงเวลา)"
           bg="bg-about-system2"
+          link="https://www.fibaro.com/en/smart-home-in-use/home-safety/"
         />
       </div>
 

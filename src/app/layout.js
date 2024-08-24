@@ -1,7 +1,9 @@
 import { Noto_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import 'swiper/css';
+//Components
 import Navbar from "@/components/nav/Navbar";
+import Footer from "@/components/footer/Footer";
 
 const noto = Noto_Sans_Thai({ subsets: ["latin"] });
 
@@ -22,9 +24,10 @@ export default function RootLayout({ children }) {
           {children}
         </main>
 
-        <footer className="bg-green-200 p-10 rounded-t-[50px]">
-          <p className="text-center">Footer</p>
-        </footer>
+        {/* <footer className="bg-green-200 p-10 rounded-t-[50px]">
+          <Footer />
+        </footer> */}
+        <Footer />
       </body>
     </html>
   );

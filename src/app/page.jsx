@@ -35,7 +35,8 @@ export default function Home() {
           facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
           aliquid, eligendi labore eius molestiae minima. Consectetur magnam
           minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa!"
+          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบไฟ)"
+        link="https://www.fibaro.com/en/smart-home-in-use/the-smart-light/"
       />
       <OurSystem
         bg="bg-our-system2"
@@ -47,7 +48,8 @@ export default function Home() {
           facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
           aliquid, eligendi labore eius molestiae minima. Consectetur magnam
           minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa!"
+          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบความปลอดภัย)"
+        link="https://www.fibaro.com/en/smart-home-in-use/home-safety/"
       />
       <OurSystem
         bg="bg-our-system3"
@@ -59,7 +61,8 @@ export default function Home() {
           facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
           aliquid, eligendi labore eius molestiae minima. Consectetur magnam
           minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa!"
+          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบม่าน)"
+        link="https://www.fibaro.com/en/smart-home-in-use/home-access-center/"
       />
       <OurSystem
         bg="bg-our-system4"
@@ -71,7 +74,8 @@ export default function Home() {
           facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
           aliquid, eligendi labore eius molestiae minima. Consectetur magnam
           minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa!"
+          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบคลาวด์)"
+        link="https://www.fibaro.com/en/smart-home-in-use/"
       />
 
       {/* Card Service Icon */}

@@ -4,6 +4,7 @@ import { FaMicrosoft, FaTemperatureHigh, FaLaptopCode, FaUserShield, FaDoorOpen,
 
 //Components
 import CardTypeProduct from "../card/Card-Type-Product";
+import Link from "next/link";
 
 function AboutIconProduct() {
   return (
@@ -76,7 +77,7 @@ function AboutIconProduct() {
         />
       </div>
 
-      <button className="btn btn-accent text-white mx-auto">อยากติดตั้งสมาร์ทโฮมทำไงดี ?</button> 
+      <Link href="/product" className="btn btn-accent text-white mx-auto">ดูอุปกรณ์ทั้งหมด</Link> 
     </div>
   );
 }

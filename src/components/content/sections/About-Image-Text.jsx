@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutImageText({ style="flex-col md:flex-row", title, des, bg }) {
+function AboutImageText({ style="flex-col md:flex-row", title, des, bg, link }) {
   return (
     <div className={`flex ${ style } h-full`}>
       <div className="w-full flex justify-center items-center py-10 bg-slate-200">
@@ -8,9 +8,9 @@ function AboutImageText({ style="flex-col md:flex-row", title, des, bg }) {
           <h2>{title}</h2>
           <p>{des}</p>
 
-          <button className="btn btn-accent text-white flex mx-auto">
+          <a href={link} target="_bank" className="btn btn-accent text-white flex mx-auto">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
       <div className={`w-full min-h-[600px] ${bg} bg-cover bg-center`}></div>

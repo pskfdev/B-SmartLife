@@ -1,6 +1,6 @@
 import React from "react";
 
-function OurSystem({ bg, style, border, title, des }) {
+function OurSystem({ bg, style, border, title, des, link }) {
   return (
     <div className={`flex h-[600px] ${style} ${bg} bg-cover bg-center`}>
       <div
@@ -8,7 +8,7 @@ function OurSystem({ bg, style, border, title, des }) {
       >
         <h1>{title}</h1>
         <h4>{des}</h4>
-        <button className="btn btn-outline btn-primary">Learn More</button>
+        <a href={link} target="_blank" className="btn btn-outline btn-primary">Learn More</a>
       </div>
     </div>
   );
