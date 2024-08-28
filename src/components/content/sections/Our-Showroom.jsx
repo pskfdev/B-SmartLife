@@ -8,10 +8,11 @@ function OurShowroom() {
     <div className="w-4/5 h-[500px] md:p-5 flex justify-end rounded-[50px] mx-auto overflow-hidden bg-showroom bg-bottom bg-cover">
       <div className="w-[500px] bg-white opacity-80 rounded-[50px] p-5 md:p-10 lg:my-10 space-y-2">
         <h3 className="italic text-green-500">About us</h3>
-        <h2>Our farms</h2>
+        <h2 className="w-fit">Our locations</h2>
         <p>
-          Lorem had ceased to been the industry's standard dummy text ever since
-          the 1500s, when an unknown printer took a galley.
+          ลูกค้าสามารถติดต่อสอบถามข้อมูลต่างๆ
+          ได้ตามช่องทางการติดต่อที่แสดงบนเว็บไซต์ และสามารถเข้ามาเยี่ยมชม
+          หรือทดลองใช้ระบบได้ที่ Showroom ของเราตามที่ระบุไว้ด้านล่างนี้.
         </p>
 
         {/* Icon and Text */}
@@ -22,8 +23,8 @@ function OurShowroom() {
             <p>
               <span className="font-bold">Office location</span>
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Officiis, doloremque.
+              993/316 หมู่ที่ 6 ถ. แพรกษา ต.แพรกษา อ.เมือง จ.สมุทรปราการ
+              10280.
             </p>
           </div>
         </div>
@@ -34,8 +35,8 @@ function OurShowroom() {
             <p>
               <span className="font-bold">Showroom location</span>
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Officiis, doloremque.
+              90/49 หมู่ที่ 15 ถ. บางนาตราด ต.บางแก้ว อ.บางพลี จ.สมุทรปราการ
+              10540.
             </p>
           </div>
         </div>

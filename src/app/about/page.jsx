@@ -19,31 +19,27 @@ function page() {
       {/* Section Image and Text */}
       <div className="rounded-3xl overflow-hidden shadow-2xl">
         <AboutImageText
-          title="HDL On bring every element of your automated home together, so you
-            can keep track of all your connected systems and devices."
-          des="HDL On คือ แอพพลิเคชั่นสำหรับสมาร์ทโฟนมีทั้งระบบ iOS และ Android จาก
-            HDL Automation ที่จะทำให้การควบคุมระบบสมาร์ทโฮม (Smart Home)
-            ของคุณเป็นเรื่องง่ายดาย เพียงปลายนิ้ว (เป็นระบบที่ช่วยอำนวยความสะดวกให้กับคนในบ้าน)"
+          title="FIBARO Smart home system."
+          des="FIBARO smart home devices provide a comprehensive environment that adapts to the needs of the entire family.
+          FIBARO allows you to monitor the amount of electricity used by home devices. This way you can easily identify which pieces of hardware keep on bumping up your bills. 
+          You can also program the system to help you make the most of the savings."
           bg="bg-about-system1"
           link="https://www.fibaro.com/en/smart-home-in-use/smart-garden/"
         />
         <AboutImageText
           style="flex-col md:flex-row-reverse"
-          title="On Pro - The interface is simple and easy to understand. You can view the indoor environmental quality, security state, latest news, as well as other information you may care about on the homepage. There are also shortcuts to control your favorite functions and scenarios."
-          des="On Pro อีก  Mobile app จาก HDL ที่มี user interface ที่ใช้งานง่าย และผู้ใช้ยังสามารถ สร้าง scenario ต่างๆ เพื่อให้สามารถควบคุมอุปกรณ์ Home Automation ได้อย่างง่ายดาย ด้วย Smart phone (และยังช่วยรักษาความปลอดภัยให้กับคุณในทุกช่วงเวลา)"
+          title="FIBARO Security system."
+          des="FIBARO ensures your personal security in case of a fire, flooding, or burglary. It also assists children, the elderly, and people with limited mobility with everyday life things."
           bg="bg-about-system2"
           link="https://www.fibaro.com/en/smart-home-in-use/home-safety/"
         />
       </div>
 
-      {/* Why choose B Smart-Life */}
+      {/* Why choose B Smart-Life (Carousel) */}
       <AboutWhyChoose />
 
       {/* Clip recommend FIBARO */}
       <Aboutclipfibaro />
-
-      {/* Section Our-Services */}
-      <OurServices />
     </div>
   );
 }

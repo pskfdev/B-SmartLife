@@ -10,9 +10,9 @@ import "swiper/css/effect-cards";
 function AboutWhyChoose() {
   return (
     <div className="py-20 space-y-10">
-      <h2 className="text-center">
-        ระบบสมาร์ทโฮมจาก HDL (Smart Home Solution from HDL Automation)
-      </h2>
+      <h1 className="text-center">
+        Smart Home Solution from FIBARO smart home
+      </h1>
 
       {/* Carousel */}
       <div>
@@ -29,7 +29,7 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Lighting</h2>
+              <h2>Lighting</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
@@ -39,7 +39,7 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Blinds</h2>
+              <h2>Blinds</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
@@ -49,7 +49,7 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Gates</h2>
+              <h2>Gates</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
@@ -59,7 +59,7 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Temperature</h2>
+              <h2>Temperature</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
@@ -69,7 +69,7 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Safety</h2>
+              <h2>Safety</h2>
             </div>
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center rounded-3xl">
@@ -79,39 +79,74 @@ function AboutWhyChoose() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white opacity-70 rounded-3xl">
-              <h2 className="text-primary">Security</h2>
+              <h2>Security</h2>
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
 
       {/* Why choose B Smart-Life */}
-      <div className="w-4/5 rounded-3xl mx-auto pt-20">
-        <h2>
-          Why choose HDL Automation from B Smart-Life?{" "}
-        </h2>
-        <h2 className="my-5">
-          ทำไมต้องเลือกระบบ Smart Home / Home Automation ของ HDL
-          จากบริษัทไหวพริบ
-        </h2>
-        <p>
-          Being smart means your home somehow knows what you need and takes care
-          of you. When you arrive home in the day time, it opens the curtains
-          for you. But when you come back in the evening, it will turn on the
-          lights for you. It ensures that every time you are walking into a
-          properly lit room.
-        </p>
-        <p className="mt-5">
-          การทำให้บ้านของคุณกลายเป็นสมาร์ทโฮม Smart Home หมายถึงระบบ Home
-          Automation
-          ที่จะถูกติดตั้งต้องมีความชาญฉลาดที่จะเข้าใจความต้องการของผู้อยู่อาศัย
-          และสามารถดูแลบ้านและคุณได้
-          ดังนั้นทั้งโซลูชั่นและผู้ติดตั้งระบบจะต้องมีประสบการณ์และเข้าใจเจ้าของบ้าน
-          จึงจะสามารถออกแบบระบบ Smart Home ที่ตอบสนอง กับ Lifestyle ของคุณได้
-          รวมถึงคำนึงถึงการใช้งานในระยะยาวและการต่อเติมในอนาคต (Future proof)
-          และที่สำคัญที่สุดคือการดูแลและให้บริการหลังการขาย
-          ซึ่งสิ่งที่กล่าวมาข้างต้นเป็นสิ่งที่ทำให้บริษัทไหวพริบแตกต่างจากผู้ให้บริการรายอื่นๆ
-        </p>
+      <div className="w-4/5 rounded-3xl mx-auto pt-20 space-y-5">
+        <h1 className="mb-10 w-fit mx-auto">
+          Why choose Smart home from B Smart-Life?{" "}
+        </h1>
+
+        <div className="flex flex-wrap gap-5 mx-auto justify-center">
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">Data safety first</h2>
+            <p>
+              FIBARO knows what is the most important. The access to your home
+              and your data are protected at the highest level - through the WAF
+              and Anti-DDoS systems, encrypted communication using the TLS
+              protocol and passwords using bcrypt.
+            </p>
+          </div>
+
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">Plug & Play</h2>
+            <p>
+              The FIBARO system is simple to install and use. Plug & play
+              devices are ready for use immediately after unpacking and a short
+              configuration.
+            </p>
+          </div>
+
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">Voice control</h2>
+            <p>
+              FIBARO is compatible with most voice control technologies. Simply
+              tell the system what to do, and your wish is granted.
+            </p>
+          </div>
+
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">Remote access from anywhere</h2>
+            <p>
+              Check the status of your devices and control your home from
+              anywhere in the world. An internet connection is all you need to
+              keep an eye on your home.
+            </p>
+          </div>
+
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">A home filled with peace</h2>
+            <p>
+              FIBARO ensures your personal security in case of a fire, flooding,
+              or burglary. It also assists children, the elderly, and people
+              with limited mobility with everyday life things.
+            </p>
+          </div>
+
+          <div className="space-y-1 w-[500px] lg:h-44 p-3 border border-sky-200 rounded-3xl cursor-pointer bg-slate-100 hover:bg-white">
+            <h2 className="w-fit">Save energy</h2>
+            <p>
+              FIBARO allows you to monitor the amount of electricity used by
+              home devices. This way you can easily identify which pieces of
+              hardware keep on bumping up your bills. You can also program the
+              system to help you make the most of the savings.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

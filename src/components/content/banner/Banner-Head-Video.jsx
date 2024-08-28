@@ -16,10 +16,10 @@ function BannerHeadVideo() {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="max-w-md text-white text-center">
           <h1 className="uppercase tracking-wide">Our Products</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <p className="py-6 text-slate-200">
+            Get to know our smart home system by discovering all the features it
+            has to offer. Live comfortably with the flexibility to add more
+            devices and integrations whenever you want.
           </p>
 
           {/* Icon Down */}

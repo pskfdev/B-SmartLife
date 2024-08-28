@@ -24,9 +24,6 @@ export default function RootLayout({ children }) {
           {children}
         </main>
 
-        {/* <footer className="bg-green-200 p-10 rounded-t-[50px]">
-          <Footer />
-        </footer> */}
         <Footer />
       </body>
     </html>

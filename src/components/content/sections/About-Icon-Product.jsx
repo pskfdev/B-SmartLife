@@ -11,20 +11,10 @@ function AboutIconProduct() {
     <div className="py-20 flex flex-col justify-center">
       <div className="text-center w-11/12 lg:w-3/5 mx-auto">
         <h2>
-          What can Home Automation systems control !
+          What can Home Automation systems control
         </h2>
-        <h3 className="py-2">We integrate all smart home devices into one completed system!</h3>
+        <h3 className="py-2">We integrate all smart home devices into one completed system</h3>
         <p className="my-2">Complete and integrated smart home experience</p>
-        <p>
-          We connects your lights, curtains, air-conditioners and other devices
-          into the system, and allows you to control them through a mobile
-          phone, tablet, wall panel or smart speaker.For example, you that are
-          able to integrate various functions and cover every area of your home.
-        </p>
-
-        <h3 className="mt-5">
-          ระบบ Home Automation จากไหวพริบสามารถควบคุมอะไรได้บ้าง
-        </h3>
         <p>
           We connects your lights, curtains, air-conditioners and other devices
           into the system, and allows you to control them through a mobile
@@ -47,7 +37,7 @@ function AboutIconProduct() {
         <CardTypeProduct
           icon={FaTemperatureHigh}
           title="Climate / Temperature Control"
-          des="ควบคุมอุณภูมิและเครื่องปรับอากาศ"
+          des="ระบบควบคุมอุณภูมิและเครื่องปรับอากาศ"
         />
         <CardTypeProduct
           icon={HiOutlineMusicNote}
@@ -68,12 +58,12 @@ function AboutIconProduct() {
         <CardTypeProduct
           icon={FaDoorOpen}
           title="Access Control"
-          des="ระบบควบคุมการการเข้าออก"
+          des="ระบบควบคุมการเข้าออก"
         />
         <CardTypeProduct
           icon={FaHourglassHalf}
-          title="Automatic Control"
-          des="ระบบควมคุมอัตโนมัติ Logic Control"
+          title="Voice Control"
+          des="ระบบการสั่งงานด้วยเสียง"
         />
       </div>
 

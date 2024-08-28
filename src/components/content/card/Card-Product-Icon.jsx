@@ -7,8 +7,8 @@ function CardProductIcon({ icon, text }) {
         {React.createElement(icon, { size: "58" })}
       </div>
 
-      <div className="w-32 bg-gradient-to-r from-primary to-success bg-clip-text text-transparent">
-        <p className="text-center">{text}</p>
+      <div className="w-32">
+        <h2 className="text-center text-sm">{text}</h2>
       </div>
     </div>
   );

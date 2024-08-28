@@ -10,7 +10,7 @@ function Footer() {
 
         {/* Nav top */}
       <div className="bg-[#BED7DC] py-14">
-        <div className="flex justify-center items-center space-x-5 ">
+        <div className="flex justify-center items-center space-x-5 text-success">
           <FiPhoneCall size={40} className="p-2 rounded-full bg-teal-100" />
           <FiMail size={40} className="p-2 rounded-full bg-teal-100" />
           <FiFacebook size={40} className="p-2 rounded-full bg-teal-100" />
@@ -36,7 +36,7 @@ function Footer() {
 
       {/* Nav bottom */}
       <div className="bg-[#B3C8CF] py-5 text-center">
-        <h2 className="text-xs">© 2024. Nice - Polska Sp. z o.o. All rights reserved.</h2>
+        <h2 className="text-xs w-fit mx-auto">© 2024. B Smart-Life. All rights reserved.</h2>
       </div>
     </footer>
   );

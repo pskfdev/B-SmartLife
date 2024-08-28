@@ -29,52 +29,38 @@ export default function Home() {
         bg="bg-our-system1"
         style="justify-end"
         border="rounded-l-3xl"
-        title="BESS (Battery Energy Storage System)"
-        des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aut
-          quas vel dolorum corrupti consequatur recusandae explicabo a iure
-          facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
-          aliquid, eligendi labore eius molestiae minima. Consectetur magnam
-          minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบไฟ)"
+        title="Conrol lighting system."
+        des="The FIBARO Single/Double Switch enables to turn on/off any electrical device remotely. 
+        Turn your dishwasher on or automatically cut the power off in case of a malfunction at any time. 
+        You can control all the household appliances you own by cutting the power off or turning it on in the socket."
         link="https://www.fibaro.com/en/smart-home-in-use/the-smart-light/"
       />
       <OurSystem
         bg="bg-our-system2"
         style="justify-start"
         border="rounded-r-3xl"
-        title="BESS (Battery Energy Storage System)"
-        des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aut
-          quas vel dolorum corrupti consequatur recusandae explicabo a iure
-          facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
-          aliquid, eligendi labore eius molestiae minima. Consectetur magnam
-          minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบความปลอดภัย)"
+        title="Security system"
+        des="The FIBARO System allows you to arm your devices. In case of tampering, an alarm scene will be activated and notification will be send by Door and Motion sensor.
+        The FIBARO Door/Window Sensor will immediately inform you about any attempts to remove the sensor or open its case. You can be sure that you and your family are protected.
+        The FIBARO Motion Sensor is your home's ultimate guardian, watching over you and your family 24/7."
         link="https://www.fibaro.com/en/smart-home-in-use/home-safety/"
       />
       <OurSystem
         bg="bg-our-system3"
         style="justify-end"
         border="rounded-l-3xl"
-        title="BESS (Battery Energy Storage System)"
-        des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aut
-          quas vel dolorum corrupti consequatur recusandae explicabo a iure
-          facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
-          aliquid, eligendi labore eius molestiae minima. Consectetur magnam
-          minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบม่าน)"
+        title="Control Blind system"
+        des="FIBARO Roller Shutter 3 is a new version of the radio-controller based on Z-Wave 5 technology. It works with motorized roller blinds, venetian blinds, awnings and gates. The Roller Shutter 3 is powered by a single-phase AC and provides precise positioning of blinds, awnings or gates so they can be set to the position you choose.
+         The module is also equipped with a power metering feature when used with a FIBARO Home Center."
         link="https://www.fibaro.com/en/smart-home-in-use/home-access-center/"
       />
       <OurSystem
         bg="bg-our-system4"
         style="justify-start"
         border="rounded-r-3xl"
-        title="BESS (Battery Energy Storage System)"
-        des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet aut
-          quas vel dolorum corrupti consequatur recusandae explicabo a iure
-          facilis sequi optio ea eos rem dolore sapiente ipsam tenetur quis
-          aliquid, eligendi labore eius molestiae minima. Consectetur magnam
-          minima sunt voluptatem! Enim deserunt, veritatis itaque dignissimos
-          qui aliquid iste ipsa! (พูดเกี่ยวกับระบบคลาวด์)"
+        title="Remote access from anywhere"
+        des="Thanks to FIBARO, you have access to your home from any place in the world. 
+        The mobile app and Internet access is enough to remotely control the home appliances using the modules FIBARO."
         link="https://www.fibaro.com/en/smart-home-in-use/"
       />
 
@@ -83,29 +69,29 @@ export default function Home() {
         <CardServiceIcon
           icon={FiBookOpen}
           title="Consultancy services"
-          subti="Consultancy service - Smart home & building"
-          des="ให้คำปรึกษาระบบสมาร์ทโฮมและสมาร์ทบิวดิ้ง"
+          subti="Consultancy service - Smart home"
+          des="ยินดีให้คำปรึกษาระบบสมาร์ทโฮมทุกรูปแบบ"
           bg="bg-teal-200"
         />
         <CardServiceIcon
           icon={FiEdit3}
           title="Design"
-          subti="Concept Design -Smart home , smart building , smart hotel"
-          des="ออกแบบคอนเซ็ปต์ระบบสมาร์ทโฮมและสมาร์ทบิวดิ้ง"
+          subti="Concept Design - Smart home"
+          des="ช่วยออกแบบคอนเซ็ปต์ระบบสมาร์ทโฮมทุกรูปแบบ"
           bg="bg-zinc-300"
         />
         <CardServiceIcon
           icon={FiMonitor}
           title="Installation & Commissioning"
-          subti="Installation & commissioning,  configuration and customization"
-          des="บริการติดตั้งระบบออโตเมชั่น สมาร์ทโฮม สมาร์ทบิวดิ้ง สมาร์ทโฮเต็ล"
+          subti="Installation & commissioning"
+          des="บริการรับติดตั้งระบบสมาร์ทโฮม และสอนการใช้งานรวมถึงทักษะการเขียนโปรแกรม"
           bg="bg-slate-400"
         />
         <CardServiceIcon
           icon={FiTool}
-          title="Maintenance & after sales service"
-          subti="Home Automation system maintenance - repair"
-          des="ตรวจสอบ บำรุงรักษาระบบออโตเมชั่นสำหรับบ้าน อาคาร และ โรงแรม"
+          title="Maintenance & After service"
+          subti="Maintenance & After service - Smart home"
+          des="ตรวจสอบ บำรุงรักษาระบบสมาร์ทโฮมสำหรับบ้านทุกรูปแบบ"
           bg="bg-green-200"
         />
       </div>
